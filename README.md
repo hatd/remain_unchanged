@@ -11,7 +11,7 @@ Chrome extension giúp remain unchanged tự động
 - Chọn folder `remain_unchanged`
 
 ## Usage
-- Bấm vào icon của extension ![icon extension](https://raw.githubusercontent.com/hatd/remain_unchanged/master/todo.png)
+- Bấm vào icon của extension ![icon extension](https://raw.githubusercontent.com/hatd/remain_unchanged/master/todo.png | width=21)
 - Nhập user/password của wsm
 - Bấm `save and login`
 - Khi có thông báo `Login success` tức là đã thành công
