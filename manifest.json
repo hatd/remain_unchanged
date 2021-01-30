@@ -1,0 +1,39 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "Remain Unchanged",
+  "version": "1.0",
+
+  // Recommended
+  "description": "Remain unchanged for sgoal",
+
+  // Pick one (or none)
+  "browser_action": {
+    "default_icon": "todo.png",
+    "default_popup": "popup.html",
+    "default_title": "Remain Unchanged"
+  },
+  "background": {
+    "scripts": [
+      "jquery-3.5.1.min.js",
+      "login.js",
+      "fetch_objective.js",
+      "remain_unchanged.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+  // "content_scripts": [
+  //   {
+  //     "matches": ["<all_urls>"],
+  //     "js": ["jquery-3.5.1.min.js", "popup.js"]
+  //   }
+  // ],
+  "permissions": [
+    "debugger",
+    "storage",
+    "cookies",
+    "alarms",
+    "<all_urls>"
+  ]
+}
